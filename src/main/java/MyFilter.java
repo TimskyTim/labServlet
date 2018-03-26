@@ -15,7 +15,7 @@ public class MyFilter implements Filter {
         }
 
         public FilterConfig getFilterConfig() {  return (this.filterConfig);  }
-        public void destroy() {       }
+        public void destroy() {}
 
         public void init(FilterConfig filterConfig) {
             this.filterConfig = filterConfig;
